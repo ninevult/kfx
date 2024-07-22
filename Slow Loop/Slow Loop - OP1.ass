@@ -11,46 +11,26 @@ PlayResY: 1080
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: OP1Kb-furigana,FOT-RodinBokutoh Pro B,24,&H00FFFFFF,&H000000FF,&H004CB0FD,&H00000000,0,0,0,0,100,100,0,0,1,1.75,0,9,30,60,60,1
-Style: OP1Ka-furigana,FOT-RodinBokutoh Pro B,24,&H00FFFFFF,&H000000FF,&H004CB0FD,&H00000000,0,0,0,0,100,100,0,0,1,1.75,0,7,60,30,60,1
-Style: OP1K-furigana,FOT-RodinBokutoh Pro B,24,&H00FFFFFF,&H000000FF,&H004CB0FD,&H00000000,0,0,0,0,100,100,0,0,1,1.75,0,8,30,30,60,1
-Style: OP1Eb-furigana,FOT-Seurat Pro B,31,&H00FFFFFF,&H000000FF,&H004CB0FD,&H00000000,0,0,0,0,100,100,1.5,0,1,2,0,3,30,60,30,1
-Style: OP1Ea-furigana,FOT-Seurat Pro B,31,&H00FFFFFF,&H000000FF,&H004CB0FD,&H00000000,0,0,0,0,100,100,1.5,0,1,2,0,1,60,30,30,1
-Style: OP1E-furigana,FOT-Seurat Pro B,31,&H00FFFFFF,&H000000FF,&H004CB0FD,&H00000000,0,0,0,0,100,100,1.5,0,1,2,0,2,30,30,30,1
-Style: Op1Rb-furigana,FOT-Seurat Pro B,31,&H00FFFFFF,&H000000FF,&H004CB0FD,&H00000000,0,0,0,0,100,100,1.5,0,1,2,0,9,30,60,30,1
-Style: Op1Ra-furigana,FOT-Seurat Pro B,31,&H00FFFFFF,&H000000FF,&H004CB0FD,&H00000000,0,0,0,0,100,100,1.5,0,1,2,0,7,60,30,30,1
-Style: OP1R-furigana,FOT-Seurat Pro B,31,&H00FFFFFF,&H000000FF,&H004CB0FD,&H00000000,0,0,0,0,100,100,1.5,0,1,2,0,8,30,30,30,1
 Style: OP1R,FOT-Seurat Pro B,62,&H00FFFFFF,&H000000FF,&H004CB0FD,&H00000000,0,0,0,0,100,100,1.5,0,1,4,0,8,30,30,20,1
-Style: Op1Ra,FOT-Seurat Pro B,62,&H00FFFFFF,&H000000FF,&H004CB0FD,&H00000000,0,0,0,0,100,100,1.5,0,1,4,0,7,60,30,20,1
-Style: Op1Rb,FOT-Seurat Pro B,62,&H00FFFFFF,&H000000FF,&H004CB0FD,&H00000000,0,0,0,0,100,100,1.5,0,1,4,0,9,30,60,20,1
 Style: OP1E,FOT-Seurat Pro B,62,&H00FFFFFF,&H000000FF,&H004CB0FD,&H00000000,0,0,0,0,100,100,1.5,0,1,4,0,2,30,30,30,1
-Style: OP1Ea,FOT-Seurat Pro B,62,&H00FFFFFF,&H000000FF,&H004CB0FD,&H00000000,0,0,0,0,100,100,1.5,0,1,4,0,1,60,30,30,1
-Style: OP1Eb,FOT-Seurat Pro B,62,&H00FFFFFF,&H000000FF,&H004CB0FD,&H00000000,0,0,0,0,100,100,1.5,0,1,4,0,3,30,60,30,1
 Style: OP1K,FOT-RodinBokutoh Pro B,48,&H00FFFFFF,&H000000FF,&H004CB0FD,&H00000000,0,0,0,0,100,100,0,0,1,3.5,0,8,30,30,90,1
-Style: OP1Ka,FOT-RodinBokutoh Pro B,48,&H00FFFFFF,&H000000FF,&H004CB0FD,&H00000000,0,0,0,0,100,100,0,0,1,3.5,0,7,60,30,90,1
-Style: OP1Kb,FOT-RodinBokutoh Pro B,48,&H00FFFFFF,&H000000FF,&H004CB0FD,&H00000000,0,0,0,0,100,100,0,0,1,3.5,0,9,30,60,90,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Comment: 0,0:01:13.99,0:01:13.99,Default,,0,0,0,{OP},
-Comment: 3,0:01:48.31,0:01:51.31,OP1R,,0,0,0,code syl,y_offset_r = ((math.random(0, 1) - 0.5) * 2) * 12;
-Comment: 3,0:01:48.31,0:01:51.31,OP1R,,0,0,0,code syl,y_offset_k = ((math.random(0, 1) - 0.5) * 2) * 7;
-Comment: 3,0:01:48.31,0:01:51.31,OP1R,,0,0,0,template syl,{\an5\bord0\pos($center, !$middle-200!)\xshad0\yshad200\fad(250,250)\blur5\4c&HFFF664&\t(0, 500, \4c&HFFFFFF&\blur0.5)\t(!$start-30!, !$start+30!, \yshad!200 + y_offset_r!)\t(!$start+45!, $end, \yshad200)\t(!$ldur - 500!, $ldur, \4c&HFFF664&\blur5)}
-Comment: 2,0:01:48.31,0:01:51.31,OP1R,,0,0,0,template syl,{\an5\bord4\pos($center, !$middle-200!)\xshad0\yshad200\fad(250,250)\blur8\4c&HFFF664&\t(0, 500, \4c&H4CB0FD&\blur1.5)\t(!$start-30!, !$start+30!, \yshad!200 + y_offset_r!)\t(!$start+45!, $end, \yshad200)\t(!$ldur - 500!, $ldur, \4c&HFFF664&\blur8)}
-Comment: 3,0:01:48.31,0:01:51.31,Op1Ra,,0,0,0,template syl,{\an5\bord0\pos($center, !$middle-200!)\xshad0\yshad200\fad(250,250)\blur5\4c&HFFF664&\t(0, 500, \4c&HFFFFFF&\blur0.5)\t(!$start-30!, !$start+30!, \yshad!200 + y_offset_r!)\t(!$start+45!, $end, \yshad200)\t(!$ldur - 500!, $ldur, \4c&HFFF664&\blur5)}
-Comment: 2,0:01:48.31,0:01:51.31,Op1Ra,,0,0,0,template syl,{\an5\bord4\pos($center, !$middle-200!)\xshad0\yshad200\fad(250,250)\blur8\4c&HFFF664&\t(0, 500, \4c&H4CB0FD&\blur1.5)\t(!$start-30!, !$start+30!, \yshad!200 + y_offset_r!)\t(!$start+45!, $end, \yshad200)\t(!$ldur - 500!, $ldur, \4c&HFFF664&\blur8)}
-Comment: 3,0:01:48.31,0:01:51.31,Op1Rb,,0,0,0,template syl,{\an5\bord0\pos($center, !$middle-200!)\xshad0\yshad200\fad(250,250)\blur5\4c&HFFF664&\t(0, 500, \4c&HFFFFFF&\blur0.5)\t(!$start-30!, !$start+30!, \yshad!200 + y_offset_r!)\t(!$start+45!, $end, \yshad200)\t(!$ldur - 500!, $ldur, \4c&HFFF664&\blur5)}
-Comment: 2,0:01:48.31,0:01:51.31,Op1Rb,,0,0,0,template syl,{\an5\bord4\pos($center, !$middle-200!)\xshad0\yshad200\fad(250,250)\blur8\4c&HFFF664&\t(0, 500, \4c&H4CB0FD&\blur1.5)\t(!$start-30!, !$start+30!, \yshad!200 + y_offset_r!)\t(!$start+45!, $end, \yshad200)\t(!$ldur - 500!, $ldur, \4c&HFFF664&\blur8)}
-Comment: 3,0:01:48.31,0:01:51.31,OP1K,,0,0,0,template syl,{\an5\bord0\pos($center, !$middle-200!)\xshad0\yshad200\fad(250,250)\blur5\4c&HFFF664&\t(0, 500, \4c&HFFFFFF&\blur0.5)\t(!$start-30!, !$start+30!, \yshad!200 + y_offset_k!)\t(!$start+45!, $end, \yshad200)\t(!$ldur - 500!, $ldur, \4c&HFFF664&\blur5)}
-Comment: 2,0:01:48.31,0:01:51.31,OP1K,,0,0,0,template syl,{\an5\bord4\pos($center, !$middle-200!)\xshad0\yshad200\fad(250,250)\blur8\4c&HFFF664&\t(0, 500, \4c&H4CB0FD&\blur1.5)\t(!$start-30!, !$start+30!, \yshad!200 + y_offset_k!)\t(!$start+45!, $end, \yshad200)\t(!$ldur - 500!, $ldur, \4c&HFFF664&\blur8)}
-Comment: 3,0:01:48.31,0:01:51.31,OP1Ka,,0,0,0,template syl,{\an5\bord0\pos($center, !$middle-200!)\xshad0\yshad200\fad(250,250)\blur5\4c&HFFF664&\t(0, 500, \4c&HFFFFFF&\blur0.5)\t(!$start-30!, !$start+30!, \yshad!200 + y_offset_k!)\t(!$start+45!, $end, \yshad200)\t(!$ldur - 500!, $ldur, \4c&HFFF664&\blur5)}
-Comment: 2,0:01:48.31,0:01:51.31,OP1Ka,,0,0,0,template syl,{\an5\bord4\pos($center, !$middle-200!)\xshad0\yshad200\fad(250,250)\blur8\4c&HFFF664&\t(0, 500, \4c&H4CB0FD&\blur1.5)\t(!$start-30!, !$start+30!, \yshad!200 + y_offset_k!)\t(!$start+45!, $end, \yshad200)\t(!$ldur - 500!, $ldur, \4c&HFFF664&\blur8)}
-Comment: 3,0:01:48.31,0:01:51.31,OP1Kb,,0,0,0,template syl,{\an5\bord0\pos($center, !$middle-200!)\xshad0\yshad200\fad(250,250)\blur5\4c&HFFF664&\t(0, 500, \4c&HFFFFFF&\blur0.5)\t(!$start-30!, !$start+30!, \yshad!200 + y_offset_k!)\t(!$start+45!, $end, \yshad200)\t(!$ldur - 500!, $ldur, \4c&HFFF664&\blur5)}
-Comment: 2,0:01:48.31,0:01:51.31,OP1Kb,,0,0,0,template syl,{\an5\bord4\pos($center, !$middle-200!)\xshad0\yshad200\fad(250,250)\blur8\4c&HFFF664&\t(0, 500, \4c&H4CB0FD&\blur1.5)\t(!$start-30!, !$start+30!, \yshad!200 + y_offset_k!)\t(!$start+45!, $end, \yshad200)\t(!$ldur - 500!, $ldur, \4c&HFFF664&\blur8)}
+Comment: 3,0:01:48.31,0:01:51.31,OP1R,,0,0,0,code syl style OP1K,y_offset_r = ((math.random(0, 1) - 0.5) * 2) * 12;
+Comment: 3,0:01:48.31,0:01:51.31,OP1R,,0,0,0,code syl style OP1K,y_offset_k = ((math.random(0, 1) - 0.5) * 2) * 7;
 Comment: 3,0:01:48.31,0:01:51.31,OP1R,,0,0,0,,
-Comment: 3,0:01:48.31,0:01:51.31,OP1E,,0,0,0,template line,{\an5\pos($center, !$middle!)\bord4\1c&HFFF664&\3c&HFFF664&\blur8\t(0, 500, \1c&HFFFFFF&\3c&H4CB0FD&\blur1.5)\t(!$ldur - 500!, $ldur, \1c&HFFF664&\3c&HFFF664&\blur8)\fad(250, 250)}
-Comment: 3,0:01:48.31,0:01:51.31,OP1Ea,,0,0,0,template line,{\an5\pos($center, !$middle!)\bord4\1c&HFFF664&\3c&HFFF664&\blur8\t(0, 500, \1c&HFFFFFF&\3c&H4CB0FD&\blur1.5)\t(!$ldur - 500!, $ldur, \1c&HFFF664&\3c&HFFF664&\blur8)\fad(250, 250)}
-Comment: 3,0:01:48.31,0:01:51.31,OP1Eb,,0,0,0,template line,{\an5\pos($center, !$middle!)\bord4\1c&HFFF664&\3c&HFFF664&\blur8\t(0, 500, \1c&HFFFFFF&\3c&H4CB0FD&\blur1.5)\t(!$ldur - 500!, $ldur, \1c&HFFF664&\3c&HFFF664&\blur8)\fad(250, 250)}
+Comment: 3,0:01:48.31,0:01:51.31,OP1R,,0,0,0,template syl style OP1K,{\an5\bord0\xshad0\yshad200\fad(250,250)\blur5\4c&HFFF664&\t(0, 500, \4c&HFFFFFF&\blur0.5)\t(!syl.start_time-30!, !syl.start_time+30!, \yshad!200 + y_offset_r!)\t(!syl.start_time+45!, !syl.end_time!, \yshad200)\t(!line.duration - 500!, !line.duration!, \4c&HFFF664&\blur5)}
+Comment: 2,0:01:48.31,0:01:51.31,OP1R,,0,0,0,template syl style OP1K,{\an5\bord4\xshad0\yshad200\fad(250,250)\blur8\4c&HFFF664&\t(0, 500, \4c&H4CB0FD&\blur1.5)\t(!syl.start_time-30!, !syl.start_time+30!, \yshad!200 + y_offset_r!)\t(!syl.start_time+45!, !syl.end_time!, \yshad200)\t(!line.duration - 500!, !line.duration!, \4c&HFFF664&\blur8)}
+Comment: 2,0:01:48.31,0:01:51.31,OP1R,,0,0,0,mixin syl style OP1K noactor left noactor right,{\pos(!line.left + syl.center!, !line.middle - 200!)}
+Comment: 2,0:01:48.31,0:01:51.31,OP1R,,0,0,0,mixin syl style OP1K actor left,{\pos(!75 + syl.center!, !line.middle - 200!)}
+Comment: 2,0:01:48.31,0:01:51.31,OP1R,,0,0,0,mixin syl style OP1K actor right,{\pos(!meta.res_x - 75 - line.width + syl.center!, !line.middle - 200!)}
+Comment: 3,0:01:48.31,0:01:51.31,OP1E,,0,0,0,,
+Comment: 3,0:01:48.31,0:01:51.31,OP1E,,0,0,0,template line,{\an5\bord4\1c&HFFF664&\3c&HFFF664&\blur8\t(0, 500, \1c&HFFFFFF&\3c&H4CB0FD&\blur1.5)\t(!line.duration - 500!, !line.duration!, \1c&HFFF664&\3c&HFFF664&\blur8)\fad(250, 250)}
+Comment: 2,0:01:48.31,0:01:51.31,OP1E,,0,0,0,mixin line noactor left noactor right,{\pos(!line.center!, !line.middle!)}
+Comment: 2,0:01:48.31,0:01:51.31,OP1E,,0,0,0,mixin line actor left,{\pos(!75 + line.width/2!, !line.middle!)}
+Comment: 2,0:01:48.31,0:01:51.31,OP1E,,0,0,0,mixin line actor right,{\pos(!meta.res_x - 75 - line.width/2!, !line.middle!)}
 Comment: 0,0:01:25.79,0:01:28.54,OP1R,,0,0,0,karaoke,{\k28}{\k23}tai{\k16}se{\k34}tsu{\k18}na {\k18}o{\k20}to{\k16}shi{\k18}mo{\k37}no {\k42}wo{\k5}
 Comment: 0,0:01:28.54,0:01:31.36,OP1R,,0,0,0,karaoke,{\k30}{\k9}shi{\k20}ra{\k18}na{\k35}i {\k19}ki{\k17}mi {\k12}ga {\k24}hi{\k17}ro{\k38}t{\k35}te{\k8}
 Comment: 0,0:01:31.49,0:01:34.22,OP1R,,0,0,0,karaoke,{\k14}{\k18}to{\k18}do{\k18}ke{\k35}te {\k19}ku{\k17}re{\k19}ta {\k17}mi{\k18}ta{\k36}i {\k41}na{\k3}
@@ -59,21 +39,21 @@ Comment: 0,0:01:37.18,0:01:40.11,OP1R,,0,0,0,karaoke,{\k17}{\k17}so{\k21}u {\k15
 Comment: 0,0:01:40.11,0:01:42.83,OP1R,,0,0,0,karaoke,{\k7}{\k21}cha{\k17}n{\k17}to {\k19}na{\k18}ma{\k17}e {\k18}wo {\k18}ka{\k19}ka{\k16}na{\k32}ku{\k44}cha{\k9}
 Comment: 0,0:01:43.03,0:01:45.71,OP1R,,0,0,0,karaoke,{\k4}{\k16}do{\k18}ko{\k18}ka {\k19}de {\k15}na{\k11}ku{\k27}shi{\k13}te{\k23}shi{\k18}ma{\k34}u {\k42}to{\k10}
 Comment: 0,0:01:45.89,0:01:48.95,OP1R,,0,0,0,karaoke,{\k3}{\k17}yo{\k36}ku {\k36}i{\k36}wa{\k35}re{\k36}te{\k36}ta {\k35}no {\k30}ni{\k6}
-Comment: 0,0:01:48.87,0:01:51.30,Op1Ra,,0,0,0,karaoke,{\k8}{\k19}da{\k36}re{\k16}ka {\k141}no{\k23}
-Comment: 0,0:01:50.08,0:01:52.83,Op1Rb,,0,0,0,karaoke,{\k13}{\k18}se{\k33}i {\k38}ja{\k18}na{\k36}ku{\k106}te{\k13}
-Comment: 0,0:01:51.52,0:01:53.93,Op1Ra,,0,0,0,karaoke,{\k11}{\k16}da{\k55}re{\k18}ka {\k133}no{\k8}
-Comment: 0,0:01:52.96,0:01:55.69,Op1Rb,,0,0,0,karaoke,{\k12}{\k18}mo{\k18}no {\k16}de {\k35}no {\k18}na{\k36}ku{\k114}te{\k7}
-Comment: 0,0:01:54.32,0:01:59.30,Op1Ra,,0,0,0,karaoke,{\k16}{\k20}ka{\k52}wa{\k20}ra{\k28}zu {\k25}{\k16}se{\k53}ka{\k19}i {\k34}wa {\k21}{\k15}so{\k55}ko {\k18}ni {\k18}a{\k15}ru {\k65}yo{\k8}
-Comment: 0,0:01:59.55,0:02:02.11,Op1Ra,,0,0,0,karaoke,{\k11}{\k17}ka{\k20}ze {\k195}to{\k13}
+Comment: 0,0:01:48.87,0:01:51.30,OP1R,left,0,0,0,karaoke,{\k8}{\k19}da{\k36}re{\k16}ka {\k141}no{\k23}
+Comment: 0,0:01:50.08,0:01:52.83,OP1R,right,0,0,0,karaoke,{\k13}{\k18}se{\k33}i {\k38}ja{\k18}na{\k36}ku{\k106}te{\k13}
+Comment: 0,0:01:51.52,0:01:53.93,OP1R,left,0,0,0,karaoke,{\k11}{\k16}da{\k55}re{\k18}ka {\k133}no{\k8}
+Comment: 0,0:01:52.96,0:01:55.69,OP1R,right,0,0,0,karaoke,{\k12}{\k18}mo{\k18}no {\k16}de {\k35}no {\k18}na{\k36}ku{\k114}te{\k7}
+Comment: 0,0:01:54.32,0:01:59.30,OP1R,left,0,0,0,karaoke,{\k16}{\k20}ka{\k52}wa{\k20}ra{\k28}zu {\k25}{\k16}se{\k53}ka{\k19}i {\k34}wa {\k21}{\k15}so{\k55}ko {\k18}ni {\k18}a{\k15}ru {\k65}yo{\k8}
+Comment: 0,0:01:59.55,0:02:02.11,OP1R,left,0,0,0,karaoke,{\k11}{\k17}ka{\k20}ze {\k195}to{\k13}
 Comment: 0,0:02:00.56,0:02:03.30,OP1R,,0,0,0,karaoke,{\k17}{\k35}saa{\k0} {\k17}te {\k17}to {\k19}te {\k35}tsu{\k37}na{\k35}i{\k54}de{\k8}
-Comment: 0,0:02:02.33,0:02:04.73,Op1Rb,,0,0,0,karaoke,{\k15}{\k22}so{\k18}ra {\k176}to{\k9}
+Comment: 0,0:02:02.33,0:02:04.73,OP1R,right,0,0,0,karaoke,{\k15}{\k22}so{\k18}ra {\k176}to{\k9}
 Comment: 0,0:02:03.54,0:02:06.11,OP1R,,0,0,0,karaoke,{\k6}{\k34}i{\k20}ki {\k19}wo {\k16}a{\k24}wa{\k48}se{\k83}te{\k7}
-Comment: 0,0:02:05.20,0:02:07.44,Op1Ra,,0,0,0,karaoke,{\k17}{\k16}yu{\k21}ko{\k162}u{\k8}
+Comment: 0,0:02:05.20,0:02:07.44,OP1R,left,0,0,0,karaoke,{\k17}{\k16}yu{\k21}ko{\k162}u{\k8}
 Comment: 0,0:02:06.37,0:02:07.82,OP1R,,0,0,0,karaoke,{\k8}{\k36}u{\k16}go{\k19}ki{\k17}da{\k35}shi{\k10}ta{\k4}
 Comment: 0,0:02:07.82,0:02:10.88,OP1R,,0,0,0,karaoke,{\k6}{\k34}ko{\k37}ko{\k35}ro {\k52}no {\k18}ya{\k57}ji{\k15}ru{\k38}shi→{\k14}
-Comment: 0,0:02:10.88,0:02:13.43,Op1Ra,,0,0,0,karaoke,{\k20}{\k19}ki{\k18}mi {\k191}to{\k7}
+Comment: 0,0:02:10.88,0:02:13.43,OP1R,left,0,0,0,karaoke,{\k20}{\k19}ki{\k18}mi {\k191}to{\k7}
 Comment: 0,0:02:11.97,0:02:14.54,OP1R,,0,0,0,karaoke,{\k17}{\k35}sou{\k0} {\k22}ki{\k17}mi {\k16}to {\k34}na{\k19}ra{\k92}ba{\k5}
-Comment: 0,0:02:13.88,0:02:16.69,Op1Ra,,0,0,0,karaoke,{\k8}{\k17}na{\k19}ra{\k224}ba{\k13}
+Comment: 0,0:02:13.88,0:02:16.69,OP1R,left,0,0,0,karaoke,{\k8}{\k17}na{\k19}ra{\k224}ba{\k13}
 Comment: 0,0:02:14.84,0:02:17.03,OP1R,,0,0,0,karaoke,{\k17}{\k33}sou{\k0} {\k21}ki{\k18}mi {\k17}to {\k37}da{\k19}ka{\k50}ra{\k7}
 Comment: 0,0:02:17.17,0:02:20.36,OP1R,,0,0,0,karaoke,{\k19}{\k16}na{\k53}ni {\k19}ga {\k51}o{\k22}ki{\k51}ru {\k18}ka {\k53}nan{\k12}te{\k5}
 Comment: 0,0:02:20.36,0:02:27.40,OP1R,,0,0,0,karaoke,{\k3}{\k34}wa{\k34}ka{\k39}ra{\k37}na{\k30}i {\k37}mi{\k36}ra{\k37}i {\k178}ga{\k36} {\k18}ha{\k19}shi{\k156}ru{\k10}
@@ -86,21 +66,21 @@ Comment: 0,0:01:37.18,0:01:40.11,OP1E,,0,0,0,karaoke,When I think back upon that
 Comment: 0,0:01:40.11,0:01:42.83,OP1E,,0,0,0,karaoke,I know I should've written down its name
 Comment: 0,0:01:43.03,0:01:45.71,OP1E,,0,0,0,karaoke,Because I've always been told
 Comment: 0,0:01:45.89,0:01:48.95,OP1E,,0,0,0,karaoke,I'd forget it eventually
-Comment: 0,0:01:48.95,0:01:51.30,OP1Ea,,0,0,0,karaoke,No it's not
-Comment: 0,0:01:50.08,0:01:52.83,OP1Eb,,0,0,0,karaoke,Anyone's fault
-Comment: 0,0:01:51.52,0:01:53.93,OP1Ea,,0,0,0,karaoke,No it's not
-Comment: 0,0:01:52.96,0:01:55.69,OP1Eb,,0,0,0,karaoke,Someone else's thing
-Comment: 0,0:01:54.32,0:01:59.30,OP1Ea,,0,0,0,karaoke,It's still here, waiting, in this world of ours
-Comment: 0,0:01:59.55,0:02:02.11,OP1Ea,,0,0,0,karaoke,And so the wind
+Comment: 0,0:01:48.95,0:01:51.30,OP1E,left,0,0,0,karaoke,No it's not
+Comment: 0,0:01:50.08,0:01:52.83,OP1E,right,0,0,0,karaoke,Anyone's fault
+Comment: 0,0:01:51.52,0:01:53.93,OP1E,left,0,0,0,karaoke,No it's not
+Comment: 0,0:01:52.96,0:01:55.69,OP1E,right,0,0,0,karaoke,Someone else's thing
+Comment: 0,0:01:54.32,0:01:59.30,OP1E,left,0,0,0,karaoke,It's still here, waiting, in this world of ours
+Comment: 0,0:01:59.55,0:02:02.11,OP1E,left,0,0,0,karaoke,And so the wind
 Comment: 0,0:02:00.56,0:02:03.30,OP1E,,0,0,0,karaoke,Now grab my hand
-Comment: 0,0:02:02.33,0:02:04.73,OP1Eb,,0,0,0,karaoke,And so the sky
+Comment: 0,0:02:02.33,0:02:04.73,OP1E,right,0,0,0,karaoke,And so the sky
 Comment: 0,0:02:03.54,0:02:06.11,OP1E,,0,0,0,karaoke,Take a deep breath
-Comment: 0,0:02:05.20,0:02:07.44,OP1Ea,,0,0,0,karaoke,Let's go
+Comment: 0,0:02:05.20,0:02:07.44,OP1E,left,0,0,0,karaoke,Let's go
 Comment: 0,0:02:06.37,0:02:07.82,OP1E,,0,0,0,karaoke,Into the unknown
 Comment: 0,0:02:07.82,0:02:10.88,OP1E,,0,0,0,karaoke,We'll follow the tailwind of our heart's arrow→
-Comment: 0,0:02:10.88,0:02:13.43,OP1Ea,,0,0,0,karaoke,As long as you're
+Comment: 0,0:02:10.88,0:02:13.43,OP1E,left,0,0,0,karaoke,As long as you're
 Comment: 0,0:02:11.97,0:02:14.54,OP1E,,0,0,0,karaoke,If you're by my side
-Comment: 0,0:02:13.88,0:02:16.69,OP1Ea,,0,0,0,karaoke,We'll be fine
+Comment: 0,0:02:13.88,0:02:16.69,OP1E,left,0,0,0,karaoke,We'll be fine
 Comment: 0,0:02:14.84,0:02:17.03,OP1E,,0,0,0,karaoke,Cause you're by my side
 Comment: 0,0:02:17.17,0:02:20.36,OP1E,,0,0,0,karaoke,An unknown future
 Comment: 0,0:02:20.36,0:02:27.40,OP1E,,0,0,0,karaoke,Where anything can happen awaits us
@@ -113,21 +93,21 @@ Comment: 0,0:01:37.18,0:01:40.11,OP1K,,0,0,0,karaoke,{\k17}{\k17}そ{\k21}う{\k
 Comment: 0,0:01:40.11,0:01:42.83,OP1K,,0,0,0,karaoke,{\k7}{\k21}ちゃ{\k17}ん{\k17}と{\k19}名{\k35}前{\k18}を{\k18}書{\k19}か{\k16}な{\k32}く{\k44}ちゃ{\k9}
 Comment: 0,0:01:43.03,0:01:45.71,OP1K,,0,0,0,karaoke,{\k4}{\k16}ど{\k18}こ{\k18}か{\k19}で{\k15}失{\k11}く{\k27}し{\k13}て{\k23}し{\k18}ま{\k34}う{\k42}と{\k10}
 Comment: 0,0:01:45.89,0:01:48.95,OP1K,,0,0,0,karaoke,{\k3}{\k17}よ{\k36}く{\k36}言{\k36}わ{\k35}れ{\k36}て{\k36}た{\k35}の{\k30}に{\k6}
-Comment: 0,0:01:48.87,0:01:51.30,OP1Ka,,0,0,0,karaoke,{\k8}{\k55}誰{\k16}か{\k141}の{\k23}
-Comment: 0,0:01:50.08,0:01:52.83,OP1Kb,,0,0,0,karaoke,{\k13}{\k18}せ{\k33}い{\k38}じゃ{\k18}な{\k36}く{\k106}て{\k13}
-Comment: 0,0:01:51.52,0:01:53.93,OP1Ka,,0,0,0,karaoke,{\k11}{\k71}誰{\k18}か{\k133}の{\k8}
-Comment: 0,0:01:52.96,0:01:55.69,OP1Kb,,0,0,0,karaoke,{\k12}{\k18}も{\k18}の{\k16}で{\k35}も{\k18}な{\k36}く{\k114}て{\k6}
-Comment: 0,0:01:54.32,0:01:59.30,OP1Ka,,0,0,0,karaoke,{\k16}{\k20}変{\k52}わ{\k20}ら{\k28}ず{\k25}　{\k16}世{\k72}界{\k34}は{\k21}　{\k15}そ{\k55}こ{\k18}に{\k18}あ{\k15}る{\k65}よ{\k8}
-Comment: 0,0:01:59.55,0:02:02.11,OP1Ka,,0,0,0,karaoke,{\k11}{\k37}風{\k195}と{\k13}
+Comment: 0,0:01:48.87,0:01:51.30,OP1K,left,0,0,0,karaoke,{\k8}{\k55}誰{\k16}か{\k141}の{\k23}
+Comment: 0,0:01:50.08,0:01:52.83,OP1K,right,0,0,0,karaoke,{\k13}{\k18}せ{\k33}い{\k38}じゃ{\k18}な{\k36}く{\k106}て{\k13}
+Comment: 0,0:01:51.52,0:01:53.93,OP1K,left,0,0,0,karaoke,{\k11}{\k71}誰{\k18}か{\k133}の{\k8}
+Comment: 0,0:01:52.96,0:01:55.69,OP1K,right,0,0,0,karaoke,{\k12}{\k18}も{\k18}の{\k16}で{\k35}も{\k18}な{\k36}く{\k114}て{\k6}
+Comment: 0,0:01:54.32,0:01:59.30,OP1K,left,0,0,0,karaoke,{\k16}{\k20}変{\k52}わ{\k20}ら{\k28}ず{\k25}　{\k16}世{\k72}界{\k34}は{\k21}　{\k15}そ{\k55}こ{\k18}に{\k18}あ{\k15}る{\k65}よ{\k8}
+Comment: 0,0:01:59.55,0:02:02.11,OP1K,left,0,0,0,karaoke,{\k11}{\k37}風{\k195}と{\k13}
 Comment: 0,0:02:00.56,0:02:03.30,OP1K,,0,0,0,karaoke,{\k17}{\k35}さあ{\k0}　{\k17}手{\k17}と{\k19}手{\k35}つ{\k37}な{\k35}い{\k54}で{\k8}
-Comment: 0,0:02:02.33,0:02:04.73,OP1Kb,,0,0,0,karaoke,{\k15}{\k40}空{\k176}と{\k9}
+Comment: 0,0:02:02.33,0:02:04.73,OP1K,right,0,0,0,karaoke,{\k15}{\k40}空{\k176}と{\k9}
 Comment: 0,0:02:03.54,0:02:06.11,OP1K,,0,0,0,karaoke,{\k6}{\k54}息{\k19}を{\k16}合{\k24}わ{\k48}せ{\k83}て{\k7}
-Comment: 0,0:02:05.20,0:02:07.44,OP1Ka,,0,0,0,karaoke,{\k17}{\k16}行{\k21}こ{\k162}う{\k8}
+Comment: 0,0:02:05.20,0:02:07.44,OP1K,left,0,0,0,karaoke,{\k17}{\k16}行{\k21}こ{\k162}う{\k8}
 Comment: 0,0:02:06.37,0:02:07.82,OP1K,,0,0,0,karaoke,{\k8}{\k52}動{\k19}き{\k17}だ{\k35}し{\k10}た{\k4}
 Comment: 0,0:02:07.82,0:02:10.88,OP1K,,0,0,0,karaoke,{\k6}{\k34}コ{\k37}コ{\k35}ロ{\k52}の{\k18}や{\k57}じ{\k15}る{\k38}し→{\k14}
-Comment: 0,0:02:10.88,0:02:13.43,OP1Ka,,0,0,0,karaoke,{\k20}{\k37}君{\k191}と{\k7}
+Comment: 0,0:02:10.88,0:02:13.43,OP1K,left,0,0,0,karaoke,{\k20}{\k37}君{\k191}と{\k7}
 Comment: 0,0:02:11.97,0:02:14.54,OP1K,,0,0,0,karaoke,{\k17}{\k35}そう{\k0}　{\k39}君{\k16}と{\k34}な{\k19}ら{\k92}ば
-Comment: 0,0:02:13.88,0:02:16.69,OP1Ka,,0,0,0,karaoke,{\k8}{\k17}な{\k19}ら{\k224}ば{\k13}
+Comment: 0,0:02:13.88,0:02:16.69,OP1K,left,0,0,0,karaoke,{\k8}{\k17}な{\k19}ら{\k224}ば{\k13}
 Comment: 0,0:02:14.84,0:02:17.03,OP1K,,0,0,0,karaoke,{\k17}{\k33}そう{\k0}　{\k39}君{\k17}と{\k37}だ{\k19}か{\k50}ら{\k7}
 Comment: 0,0:02:17.17,0:02:20.36,OP1K,,0,0,0,karaoke,{\k19}{\k69}何{\k19}が{\k51}起{\k22}き{\k51}る{\k18}か{\k53}なん{\k12}て{\k5}
 Comment: 0,0:02:20.36,0:02:27.40,OP1K,,0,0,0,karaoke,{\k3}{\k34}わ{\k34}か{\k39}ら{\k37}な{\k30}い{\k37}未{\k73}来{\k178}が{\k36}　{\k37}走{\k156}る{\k10}
