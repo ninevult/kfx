@@ -18,8 +18,8 @@ Style: OP1K,FOT-RodinBokutoh Pro B,48,&H00FFFFFF,&H000000FF,&H004CB0FD,&H0000000
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Comment: 0,0:01:13.99,0:01:13.99,Default,,0,0,0,{OP},
-Comment: 3,0:01:48.31,0:01:51.31,OP1R,,0,0,0,code syl style OP1K,y_offset_r = ((math.random(0, 1) - 0.5) * 2) * 12;
-Comment: 3,0:01:48.31,0:01:51.31,OP1R,,0,0,0,code syl style OP1K,y_offset_k = ((math.random(0, 1) - 0.5) * 2) * 7;
+Comment: 3,0:01:48.31,0:01:51.31,OP1R,,0,0,0,code syl style OP1K,y_offset_r = ((math.random(0, 1) - 0.5) * 2) * 9;
+Comment: 3,0:01:48.31,0:01:51.31,OP1R,,0,0,0,code syl style OP1K,y_offset_k = ((math.random(0, 1) - 0.5) * 2) * 4;
 Comment: 3,0:01:48.31,0:01:51.31,OP1R,,0,0,0,,
 Comment: 3,0:01:48.31,0:01:51.31,OP1R,,0,0,0,template syl style OP1K,{\an5\bord0\xshad0\yshad200\fad(250,250)\blur5\4c&HFFF664&\t(0, 500, \4c&HFFFFFF&\blur0.5)\t(!syl.start_time-30!, !syl.start_time+30!, \yshad!200 + y_offset_r!)\t(!syl.start_time+45!, !syl.end_time!, \yshad200)\t(!line.duration - 500!, !line.duration!, \4c&HFFF664&\blur5)}
 Comment: 2,0:01:48.31,0:01:51.31,OP1R,,0,0,0,template syl style OP1K,{\an5\bord4\xshad0\yshad200\fad(250,250)\blur8\4c&HFFF664&\t(0, 500, \4c&H4CB0FD&\blur1.5)\t(!syl.start_time-30!, !syl.start_time+30!, \yshad!200 + y_offset_r!)\t(!syl.start_time+45!, !syl.end_time!, \yshad200)\t(!line.duration - 500!, !line.duration!, \4c&HFFF664&\blur8)}
